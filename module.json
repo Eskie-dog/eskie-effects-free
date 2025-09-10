@@ -1,31 +1,19 @@
 {
-  "id": "eskieEffects",
+  "id": "Eskie-Effects",
   "title": "Eskie Effects",
   "description": "A module that adds various effects to Foundry VTT.",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Eskie",
       "discord": "EskieMoh#2969"
     }
   ],
-  "version": "1.0.0",
   "compatibility": {
-    "minimum": 12.328,
-    "verified": 13.345,
-    "maximum": 13.999
+    "minimum": "12.328",
+    "verified": "13.345",
+    "maximum": "13.999"
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "packs": [
-     {
-        "name": "yourAssetsCompendium",
-        "label": "My Compendium Name",
-        "path": "packs/scenes",
-        "type": "Scene",
-        "module": "yourModuleName"
-     }
-  ],
   "url": "https://github.com/Eskie-dog/Eskie-Effects",
   "manifest": "https://github.com/Eskie-dog/Eskie-Effects/releases/latest/download/module.json",
   "download": "https://github.com/Eskie-dog/Eskie-Effects/releases/download/1.0.0/module.zip"
