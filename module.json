@@ -9,6 +9,12 @@
       "discord": "EskieMoh#2969"
     }
   ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "https://github.com/Eskie-dog/eskie-effects/blob/main/art/banner.webm?raw=true"
+    }
+  ],
   "compatibility": {
     "minimum": "12.328",
     "verified": "13.345",
