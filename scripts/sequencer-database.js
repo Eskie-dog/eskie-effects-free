@@ -10,6 +10,7 @@ export async function createDatabase(moduleFolder) {
     // Grid size, start point, end point
     default: [100, 0, 0],
     ranged: [200, 200, 200],
+    line: [200, 200, 200],
     };
     
     //--------------------
@@ -346,6 +347,7 @@ export async function createDatabase(moduleFolder) {
             colorless: `${path}/Lightning/Lightning_04/Lightning_04_Colorless.webm`,
         },
         lightning_bolt: {
+            _template: 'line',
             blue: {
                 '05ft': `${path}/Lightning/Lightning_Bolt/Lightning_Bolt_Blue_05ft.webm`,
                 '15ft': `${path}/Lightning/Lightning_Bolt/Lightning_Bolt_Blue_15ft.webm`,
