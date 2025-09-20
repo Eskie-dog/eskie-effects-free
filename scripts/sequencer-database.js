@@ -314,6 +314,9 @@ export async function createDatabase(moduleFolder) {
             white: `${path}/Fire/Fire_02/Fire_02_White.webm`,
         },
         '03': {
+            _markers: {
+                loop: { start: 500, end: 1500 }
+            },
             blue: `${path}/Fire/Fire_03/Fire_03_Blue.webm`,
             green: `${path}/Fire/Fire_03/Fire_03_Green.webm`,
             orange: `${path}/Fire/Fire_03/Fire_03_Orange.webm`,
@@ -744,6 +747,9 @@ export async function createDatabase(moduleFolder) {
             white: `${path}/Smoke/Smoke_03/Smoke_03_White.webm`,
         },
         '04': {
+            _markers: {
+                loop: { start: 1000, end: 2000 }
+            },
             black: `${path}/Smoke/Smoke_04/Smoke_04_Black.webm`,
             tan: `${path}/Smoke/Smoke_04/Smoke_04_Tan.webm`,
             white: `${path}/Smoke/Smoke_04/Smoke_04_White.webm`,
@@ -942,6 +948,9 @@ export async function createDatabase(moduleFolder) {
             white: `${path}/Velocity/Velocity_01_White.webm`,
         },
         '02': {
+            _markers: {
+                loop: { start: 500, end: 1500 }
+            },            
             white: `${path}/Velocity/Velocity_02_White.webm`,
         },
     };
