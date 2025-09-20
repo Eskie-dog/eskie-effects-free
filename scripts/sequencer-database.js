@@ -313,6 +313,14 @@ export async function createDatabase(moduleFolder) {
             teal: `${path}/Fire/Fire_02/Fire_02_Teal.webm`,
             white: `${path}/Fire/Fire_02/Fire_02_White.webm`,
         },
+        '03': {
+            blue: `${path}/Fire/Fire_03/Fire_03_Blue.webm`,
+            green: `${path}/Fire/Fire_03/Fire_03_Green.webm`,
+            orange: `${path}/Fire/Fire_03/Fire_03_Orange.webm`,
+            teal: `${path}/Fire/Fire_03/Fire_03_Teal.webm`,
+            white: `${path}/Fire/Fire_03/Fire_03_White.webm`,
+            redorange: `${path}/Fire/Fire_03/Fire_03_RedOrange.webm`,
+        },
     };
     //--------------------
     //LIGHTNING
@@ -386,16 +394,93 @@ export async function createDatabase(moduleFolder) {
         },
     };
     //--------------------
+    //PARTICLE
+    //--------------------
+    database.particle = {
+        '01': {
+            one_shot: {
+                blue: `${path}/Particle/Particle_01/OneShot/Particle_OneShot_01_Blue.webm`,
+                green: `${path}/Particle/Particle_01/OneShot/Particle_OneShot_01_Green.webm`,
+                orange: `${path}/Particle/Particle_01/OneShot/Particle_OneShot_01_Orange.webm`,
+                red: `${path}/Particle/Particle_01/OneShot/Particle_OneShot_01_Red.webm`,
+                white: `${path}/Particle/Particle_01/OneShot/Particle_OneShot_01_White.webm`,
+            },
+            loop: {
+                blue: `${path}/Particle/Particle_01/Loop/Particle_Loop_01_Blue.webm`,
+                green: `${path}/Particle/Particle_01/Loop/Particle_Loop_01_Green.webm`,
+                orange: `${path}/Particle/Particle_01/Loop/Particle_Loop_01_Orange.webm`,
+                red: `${path}/Particle/Particle_01/Loop/Particle_Loop_01_Red.webm`,
+                white: `${path}/Particle/Particle_01/Loop/Particle_Loop_01_White.webm`,
+            },
+        },
+        '02': {
+           blue: `${path}/Particle/Particle_02/Particle_Loop_02_Blue.webm`, 
+           green: `${path}/Particle/Particle_02/Particle_Loop_02_Green.webm`,
+           orange: `${path}/Particle/Particle_02/Particle_Loop_02_Orange.webm`,
+           red: `${path}/Particle/Particle_02/Particle_Loop_02_Red.webm`,
+           white: `${path}/Particle/Particle_02/Particle_Loop_02_White.webm`,
+        },
+        '03': {
+            blue: `${path}/Particle/Particle_03/Particle_03_Blue.webm`,
+            green: `${path}/Particle/Particle_03/Particle_03_Green.webm`,
+            orange: `${path}/Particle/Particle_03/Particle_03_Orange.webm`,
+            red: `${path}/Particle/Particle_03/Particle_03_Red.webm`,
+            white: `${path}/Particle/Particle_03/Particle_03_White.webm`,
+        },
+    };
+    //--------------------
     //Pulse
     //--------------------
     database.pulse = {
         energy: {
-            blue: `${path}/Pulse/Energy_Pulse_Blue.webm`,
-            green: `${path}/Pulse/Energy_Pulse_Green.webm`,
-            orange: `${path}/Pulse/Energy_Pulse_Orange.webm`,
-            purple: `${path}/Pulse/Energy_Pulse_Purple.webm`,
-            red: `${path}/Pulse/Energy_Pulse_Red.webm`,
-            yellow: `${path}/Pulse/Energy_Pulse_Yellow.webm`,
+            '01': {
+                blue: `${path}/Pulse/Energy_01/Energy_Pulse_01_Blue.webm`,
+                green: `${path}/Pulse/Energy_01/Energy_Pulse_01_Green.webm`,
+                orange: `${path}/Pulse/Energy_01/Energy_Pulse_01_Orange.webm`,
+                purple: `${path}/Pulse/Energy_01/Energy_Pulse_01_Purple.webm`,
+                red: `${path}/Pulse/Energy_01/Energy_Pulse_01_Red.webm`,
+                yellow: `${path}/Pulse/Energy_01/Energy_Pulse_01_Yellow.webm`,
+            },
+            '02': {
+                fast: {
+                    blue: `${path}/Pulse/Energy_02/Energy_Pulse_02_Blue_Fast.webm`,
+                    green: `${path}/Pulse/Energy_02/Energy_Pulse_02_Green_Fast.webm`,
+                    orange: `${path}/Pulse/Energy_02/Energy_Pulse_02_Orange_Fast.webm`,
+                    purple: `${path}/Pulse/Energy_02/Energy_Pulse_02_Purple_Fast.webm`,
+                    red: `${path}/Pulse/Energy_02/Energy_Pulse_02_Red_Fast.webm`,
+                    yellow: `${path}/Pulse/Energy_02/Energy_Pulse_02_Yellow_Fast.webm`,
+                    white: `${path}/Pulse/Energy_02/Energy_Pulse_02_White_Fast.webm`,
+                },
+                slow: {
+                    blue: `${path}/Pulse/Energy_02/Energy_Pulse_02_Blue_Slow.webm`,
+                    green: `${path}/Pulse/Energy_02/Energy_Pulse_02_Green_Slow.webm`,
+                    orange: `${path}/Pulse/Energy_02/Energy_Pulse_02_Orange_Slow.webm`,
+                    purple: `${path}/Pulse/Energy_02/Energy_Pulse_02_Purple_Slow.webm`,
+                    red: `${path}/Pulse/Energy_02/Energy_Pulse_02_Red_Slow.webm`,
+                    yellow: `${path}/Pulse/Energy_02/Energy_Pulse_02_Yellow_Slow.webm`,
+                    white: `${path}/Pulse/Energy_02/Energy_Pulse_02_White_Slow.webm`,
+                },
+            },
+            '03': {
+                fast: {
+                    blue: `${path}/Pulse/Energy_03/Energy_Pulse_03_Blue_Fast.webm`,
+                    green: `${path}/Pulse/Energy_03/Energy_Pulse_03_Green_Fast.webm`,
+                    orange: `${path}/Pulse/Energy_03/Energy_Pulse_03_Orange_Fast.webm`,
+                    purple: `${path}/Pulse/Energy_03/Energy_Pulse_03_Purple_Fast.webm`,
+                    red: `${path}/Pulse/Energy_03/Energy_Pulse_03_Red_Fast.webm`,
+                    yellow: `${path}/Pulse/Energy_03/Energy_Pulse_03_Yellow_Fast.webm`,
+                    white: `${path}/Pulse/Energy_03/Energy_Pulse_03_White_Fast.webm`,
+                },
+                slow: {
+                    blue: `${path}/Pulse/Energy_03/Energy_Pulse_03_Blue_Slow.webm`,
+                    green: `${path}/Pulse/Energy_03/Energy_Pulse_03_Green_Slow.webm`,
+                    orange: `${path}/Pulse/Energy_03/Energy_Pulse_03_Orange_Slow.webm`,
+                    purple: `${path}/Pulse/Energy_03/Energy_Pulse_03_Purple_Slow.webm`,
+                    red: `${path}/Pulse/Energy_03/Energy_Pulse_03_Red_Slow.webm`,
+                    yellow: `${path}/Pulse/Energy_03/Energy_Pulse_03_Yellow_Slow.webm`,
+                    white: `${path}/Pulse/Energy_03/Energy_Pulse_03_White_Slow.webm`,
+                },
+            },
         },
     };
     //--------------------
@@ -658,6 +743,16 @@ export async function createDatabase(moduleFolder) {
             tan: `${path}/Smoke/Smoke_03/Smoke_03_Tan.webm`,
             white: `${path}/Smoke/Smoke_03/Smoke_03_White.webm`,
         },
+        '04': {
+            black: `${path}/Smoke/Smoke_04/Smoke_04_Black.webm`,
+            tan: `${path}/Smoke/Smoke_04/Smoke_04_Tan.webm`,
+            white: `${path}/Smoke/Smoke_04/Smoke_04_White.webm`,
+        },
+        '05': {
+            black: `${path}/Smoke/Smoke_05/Smoke_05_Black.webm`,
+            tan: `${path}/Smoke/Smoke_05/Smoke_05_Tan.webm`,
+            white: `${path}/Smoke/Smoke_05/Smoke_05_White.webm`,
+        },
     };
     //--------------------
     //STAR
@@ -672,6 +767,25 @@ export async function createDatabase(moduleFolder) {
             yellow: `${path}/Star/Star_01/Star_01_Yellow.webm`,
             white: `${path}/Star/Star_01/Star_01_White.webm`,
             colorless: `${path}/Star/Star_01/Star_01_Colorless.webm`,
+        },
+        '02': {
+            blue: `${path}/Star/Star_02/Star_02_Blue.webm`,
+            green: `${path}/Star/Star_02/Star_02_Green.webm`,
+            orange: `${path}/Star/Star_02/Star_02_Orange.webm`,
+            purple: `${path}/Star/Star_02/Star_02_Purple.webm`,
+            red: `${path}/Star/Star_02/Star_02_Red.webm`,
+            yellow: `${path}/Star/Star_02/Star_02_Yellow.webm`,
+            white: `${path}/Star/Star_02/Star_02_White.webm`,
+            colorless: `${path}/Star/Star_02/Star_02_Colorless.webm`,
+        },
+        '03': {
+            blue: `${path}/Star/Star_03/Star_03_Blue.webm`,
+            green: `${path}/Star/Star_03/Star_03_Green.webm`,
+            orange: `${path}/Star/Star_03/Star_03_Orange.webm`,
+            purple: `${path}/Star/Star_03/Star_03_Purple.webm`,
+            red: `${path}/Star/Star_03/Star_03_Red.webm`,
+            yellow: `${path}/Star/Star_03/Star_03_Yellow.webm`,
+            white: `${path}/Star/Star_03/Star_03_White.webm`,
         },
         shooting_star: {
             '01': {
@@ -692,14 +806,27 @@ export async function createDatabase(moduleFolder) {
                 red: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_Red.webm`,
                 white: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_White.webm`,
                 yellow: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_Yellow.webm`,
+                bluewhite: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_BlueWhite.webm`,
+                greenyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_GreenYellow.webm`,
+                orangeyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_OrangeYellow.webm`,
+                purpleyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_PurpleYellow.webm`,
+                tealyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_TealYellow.webm`,
+                yellowwhite: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_YellowWhite.webm`,
+                colorless: `${path}/Star/Twinkling_Star/Twinkling_Star_01/Twinkling_Star_01_Colorless.webm`,
             },
             '02': {
                 blue: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Blue.webm`,
                 green: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Green.webm`,
                 orange: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Orange.webm`,
                 purple: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Purple.webm`,
+                red: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Red.webm`,
                 teal: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Teal.webm`,
                 yellow: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Yellow.webm`,
+                white: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_White.webm`,
+                orangeyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_OrangeYellow.webm`,
+                pinkyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_PinkYellow.webm`,
+                tealyellow: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_TealYellow.webm`,
+                colorless: `${path}/Star/Twinkling_Star/Twinkling_Star_02/Twinkling_Star_02_Colorless.webm`,
             },
         },
     };
@@ -813,6 +940,9 @@ export async function createDatabase(moduleFolder) {
     database.velocity = {
         '01': {
             white: `${path}/Velocity/Velocity_01_White.webm`,
+        },
+        '02': {
+            white: `${path}/Velocity/Velocity_02_White.webm`,
         },
     };
     //--------------------
