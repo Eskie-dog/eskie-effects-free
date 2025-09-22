@@ -263,6 +263,15 @@ export async function createDatabase(moduleFolder) {
             },
             '01': `${path}/Emote/Emote_Surprised.webm`
         },
+        emote_bubble: {
+            _markers: {
+                loop: { start: 1000, end: 2500 }
+            },
+            confused: `${path}/Emote/Emote_Bubble/Emote_Bubble_Confused.webm`,
+            smug: `${path}/Emote/Emote_Bubble/Emote_Bubble_Smug.webm`,
+            thank_you: `${path}/Emote/Emote_Bubble/Emote_Bubble_ThankYou.webm`,
+            wink: `${path}/Emote/Emote_Bubble/Emote_Bubble_Wink.webm`,
+        },
     };
     //--------------------
     //ENVIRONMENT
