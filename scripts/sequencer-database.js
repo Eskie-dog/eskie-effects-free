@@ -211,6 +211,293 @@ export async function createDatabase(moduleFolder) {
         },
     };
     //--------------------
+    //CROSSHAIR
+    //--------------------
+    database.crosshair = {
+        circle: {
+            fantasy_01:{
+                red: {
+                    full:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_60ft.webm`,
+                    },
+                    no_base:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_NoBase_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_NoBase_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_NoBase_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Red_NoBase_60ft.webm`,
+                    },
+                },
+                teal: {
+                    full:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_60ft.webm`,
+                    },
+                    no_base:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_NoBase_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_NoBase_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_NoBase_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Teal_NoBase_60ft.webm`,
+                    },
+                },
+                white:{
+                    full:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_60ft.webm`,
+                    },
+                    no_base:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_NoBase_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_NoBase_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_NoBase_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_White_NoBase_60ft.webm`,
+                    },
+                },
+                yellow:{
+                    full:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_60ft.webm`,
+                    },
+                    no_base:{
+                        'radius_10ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_NoBase_10ft.webm`,
+                        'radius_20ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_NoBase_20ft.webm`,
+                        'radius_30ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_NoBase_30ft.webm`,
+                        'radius_60ft': `${path}/Crosshair/Circle/Fantasy_01/Crosshair_Circle_Fantasy_01_Yellow_NoBase_60ft.webm`,
+                    },
+                },
+            },
+        },
+        cone:{
+            thin:{
+                fantasy_01:{
+                    red:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Red_NoBase_90ft.webm`,
+                        },
+                    },
+                    teal:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Teal_NoBase_90ft.webm`,
+                        },
+                    },
+                    white:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_White_NoBase_90ft.webm`,
+                        },
+                    },
+                    yellow:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Thin/Fantasy_01/Crosshair_Cone_Thin_Fantasy_01_Yellow_NoBase_90ft.webm`,
+                        },
+                    },
+                },
+            },
+            wide:{
+                fantasy_01:{
+                    red:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Red_NoBase_90ft.webm`,
+                        },
+                    },
+                    teal:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Teal_NoBase_90ft.webm`,
+                        },
+                    },
+                    white:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_White_NoBase_90ft.webm`,
+                        },
+                    },
+                    yellow:{
+                        full:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_90ft.webm`,
+                        },
+                        no_base:{
+                            '15ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_NoBase_15ft.webm`,
+                            '30ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_NoBase_30ft.webm`,
+                            '60ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_NoBase_60ft.webm`,
+                            '90ft': `${path}/Crosshair/Cone/Wide/Fantasy_01/Crosshair_Cone_Wide_Fantasy_01_Yellow_NoBase_90ft.webm`,
+                        },
+                    },
+                },
+            },
+        },
+        line:{
+            generic_01:{
+                red:{
+                    '05ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Red_05ft.webm`,
+                    '15ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Red_15ft.webm`,
+                    '30ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Red_30ft.webm`,
+                    '60ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Red_60ft.webm`,
+                    '90ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Red_90ft.webm`,
+                },
+                teal:{
+                    '05ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Teal_05ft.webm`,
+                    '15ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Teal_15ft.webm`,
+                    '30ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Teal_30ft.webm`,
+                    '60ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Teal_60ft.webm`,
+                    '90ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Teal_90ft.webm`,
+                },
+                white:{
+                    '05ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_White_05ft.webm`,
+                    '15ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_White_15ft.webm`,
+                    '30ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_White_30ft.webm`,
+                    '60ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_White_60ft.webm`,
+                    '90ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_White_90ft.webm`,
+                },
+                yellow:{
+                    '05ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Yellow_05ft.webm`,
+                    '15ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Yellow_15ft.webm`,
+                    '30ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Yellow_30ft.webm`,
+                    '60ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Yellow_60ft.webm`,
+                    '90ft': `${path}/Crosshair/Line/Generic_01/Crosshair_Line_Generic_01_Yellow_90ft.webm`,
+                },
+            },
+        },
+        ray:{
+            fantasy_01:{
+                red:{
+                    full:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_90ft.webm`,
+                    },
+                    no_base:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_NoBase_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_NoBase_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_NoBase_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_NoBase_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Red_NoBase_90ft.webm`,
+                    },
+                },
+                teal:{
+                    full:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_90ft.webm`,
+                    },
+                    no_base:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_NoBase_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_NoBase_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_NoBase_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_NoBase_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Teal_NoBase_90ft.webm`,
+                    },
+                },
+                white:{
+                    full:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_90ft.webm`,
+                    },
+                    no_base:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_NoBase_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_NoBase_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_NoBase_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_NoBase_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_NoBase_90ft.webm`,
+                    },
+                },
+                yellow:{
+                    full:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_90ft.webm`,
+                    },
+                    no_base:{
+                        '05ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_NoBase_05ft.webm`,
+                        '15ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_NoBase_15ft.webm`,
+                        '30ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_NoBase_30ft.webm`,
+                        '60ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_NoBase_60ft.webm`,
+                        '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_Yellow_NoBase_90ft.webm`,
+                    },
+                },
+            },
+        },
+    };
+    //--------------------
     //EMOTE
     //--------------------
     database.emote = {
