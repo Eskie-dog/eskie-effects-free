@@ -2,7 +2,7 @@
   <img src="https://github.com/Eskie-dog/eskie-effects/blob/main/images/Banner.gif" height="350">
 </p>
 
-# Eskie Effects
+# Eskie Effects FREE
 
 ![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
 ![Downloads](https://img.shields.io/badge/Downloads-N%2FA-lightgrey)
