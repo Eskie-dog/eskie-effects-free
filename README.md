@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Eskie-dog/eskie-effects/blob/main/images/Banner.gif" height="350">
+  <img src="https://github.com/Eskie-dog/eskie-effects-free/blob/main/images/banner-free.gif" height="350">
 </p>
 
 # Eskie Effects FREE
