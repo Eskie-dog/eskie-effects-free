@@ -24,8 +24,6 @@ These effects are best utilized with the **[Sequencer](https://foundryvtt.com/pa
 You can find a tutorial on how to create a basic Sequencer macro [here](https://www.youtube.com/watch?v=h3umIhFW1HA).  With even more Foundry tutorials, on my [YouTube](https://www.youtube.com/@EskieMoh) channel.
 And if you haven’t already, join the **[Discord](https://discord.gg/efjjV6Yy)** community. Ask questions, get help, share macros, and show off your creations!
 
----
-
 ## 🎨 Artist Contributions
 Many of these effects are built from original animated artworks created specially for this module.  
 Show some love to these talented artists:
@@ -38,5 +36,15 @@ eskie
 ArkRoot
 [<img src="https://simpleicons.vercel.app/behance/5d5d5d" width="18" height="18" alt="Behance">](https://www.behance.net/arkroot/projects)
 [<img src="https://simpleicons.vercel.app/instagram/5d5d5d" width="18" height="18" alt="Instagram">](https://www.instagram.com/arkroot/)
+
+---
+
+## License
+**Eskie Effects** © 2025 Eskie Effects  
+Licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/),  
+with an additional clause prohibiting redistribution or re-hosting of the assets.
+
+You may use these effects freely for personal or non-commercial Foundry VTT projects.  
+Do not re-upload, repackage, or distribute the original files outside of this module.
 
 
