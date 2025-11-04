@@ -4,8 +4,8 @@
 
 # Eskie Effects FREE
 
-![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
-![Downloads](https://img.shields.io/badge/Downloads-N%2FA-lightgrey)
+![Version](https://img.shields.io/github/v/release/Eskie-dog/eskie-effects-free?label=Version&color=blue)
+![Downloads](https://img.shields.io/github/downloads/Eskie-dog/eskie-effects-free/total?label=Downloads)
 [![Patreon](https://img.shields.io/badge/Patreon-support-orange?logo=patreon&logoColor=white)](https://patreon.com/EskieEffects)
 [![Discord](https://img.shields.io/discord/813354083061989438?style=flat-square&logo=discord&logoColor=ffffff&color=%235865F2)](https://discord.gg/efjjV6Yy)
 [![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCnES1fzHV-xSu58rEL7NcDg?style=flat&logo=youtube&color=%23FF0000)](https://www.youtube.com/@EskieMoh)
