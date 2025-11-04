@@ -435,13 +435,6 @@ export async function createDatabase(moduleFolder) {
         '01': {
             white: {
                 blue: `${path}/Slice/Slice_01/Slice_01_White_Blue.webm`,
-                green: `${path}/Slice/Slice_01/Slice_01_White_Green.webm`,
-                orange: `${path}/Slice/Slice_01/Slice_01_White_Orange.webm`,
-                purple: `${path}/Slice/Slice_01/Slice_01_White_Purple.webm`,
-                red: `${path}/Slice/Slice_01/Slice_01_White_Red.webm`,
-                yellow: `${path}/Slice/Slice_01/Slice_01_White_Yellow.webm`,
-                rainbow: `${path}/Slice/Slice_01/Slice_01_White_Rainbow.webm`,
-                colorless: `${path}/Slice/Slice_01/Slice_01_White_Colorless.webm`,
             },
         },
     };

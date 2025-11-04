@@ -1,7 +1,7 @@
 {
-  "id": "eskie-effects",
-  "title": "Eskie Effects",
-  "description": "A module that adds various effects to Foundry VTT.",
+  "id": "eskie-effects-free",
+  "title": "Eskie Effects Free",
+  "description": "FREE VERSION. A collection of animated assets for creating a variety of unique visual effects for spells, abilities, and cinematic scenes.",
   "version": "1.0.0",
   "authors": [
     {
@@ -12,18 +12,18 @@
   "media": [
     {
       "type": "setup",
-      "url": "modules/eskie-effects-free/art/banner.gif"
+      "url": "modules/eskie-effects-free/art/banner-free.gif"
     }
   ],
   "compatibility": {
     "minimum": "12.328",
-    "verified": "13.345",
+    "verified": "13.348",
     "maximum": "13.999"
   },
   "esmodules": [
 "scripts/hooks.js"
   ],
-  "url": "https://github.com/Eskie-dog/eskie-effects",
+  "url": "https://github.com/Eskie-dog/eskie-effects-free",
   "manifest": "https://github.com/Eskie-dog/eskie-effects-free/releases/latest/download/module.json",
-  "download": "https://github.com/Eskie-dog/eskie-effects-free/releases/download/v1.0.0/eskie-effects.zip"
+  "download": "https://github.com/Eskie-dog/eskie-effects-free/releases/download/v1.0.0/eskie-effects-free.zip"
 }
