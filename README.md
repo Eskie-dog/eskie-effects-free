@@ -13,7 +13,7 @@
 *A collection of **FREE animated assets** geared toward being combined and remixed using the **Sequencer** module, allowing you to create a variety of unique visual effects for spells, abilities, and cinematic scenes.*
 
 ## ✨ Features
--  **Free version** with +100 animated effects
+-  **Free version** with +100 animated effects (Premium **Patreon version** with alternate variations and recolors [here](https://patreon.com/EskieEffects)!)  
 -  Dedicated crosshair effects
 -  Object texture masks
 -  Screen overlays
