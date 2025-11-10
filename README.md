@@ -40,11 +40,5 @@ ArkRoot
 ---
 
 ## License
-**Eskie Effects** © 2025 Eskie Effects  
-Licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/),  
-with an additional clause prohibiting redistribution or re-hosting of the assets.
-
-You may use these effects freely for personal or non-commercial Foundry VTT projects.  
-Do not re-upload, repackage, or distribute the original files outside of this module.
-
-
+© 2025 Eskie Effects  
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
