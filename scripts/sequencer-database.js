@@ -412,9 +412,6 @@ export async function createDatabase(moduleFolder) {
             },
             '01': `${path}/Screen_Overlay/Cinema_Bars/Cinema_Bars.webm`,
         },
-        embers: {
-            '01': `${path}/Screen_Overlay/Embers/ScreenOverlay_Embers.webm`,
-        },
         speed_lines: {
             center: {
                 '01': {
