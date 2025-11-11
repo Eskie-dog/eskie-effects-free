@@ -8,7 +8,7 @@
 ![Downloads](https://img.shields.io/github/downloads/Eskie-dog/eskie-effects-free/total?label=Downloads)
 [![Patreon](https://img.shields.io/badge/Patreon-support-orange?logo=patreon&logoColor=white)](https://patreon.com/EskieEffects)
 [![Discord](https://img.shields.io/discord/813354083061989438?style=flat-square&logo=discord&logoColor=ffffff&color=%235865F2)](https://discord.gg/efjjV6Yy)
-[![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCnES1fzHV-xSu58rEL7NcDg?style=flat&logo=youtube&color=%23FF0000)](https://www.youtube.com/@EskieMoh)
+[![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCnES1fzHV-xSu58rEL7NcDg?style=flat&logo=youtube&color=%23FF0000)](https://www.youtube.com/@eskieTTRPG)
 
 *A collection of **FREE animated assets** geared toward being combined and remixed using the **Sequencer** module, allowing you to create a variety of unique visual effects for spells, abilities, and cinematic scenes.*
 
