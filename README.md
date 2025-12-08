@@ -10,7 +10,7 @@
 [![Discord](https://img.shields.io/discord/813354083061989438?style=flat-square&logo=discord&logoColor=ffffff&color=%235865F2)](https://discord.gg/efjjV6Yy)
 [![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UCnES1fzHV-xSu58rEL7NcDg?style=flat&logo=youtube&color=%23FF0000)](https://www.youtube.com/@eskieTTRPG)
 
-*A collection of **FREE animated assets** geared toward being combined and remixed using the **Sequencer** module, allowing you to create a variety of unique visual effects for spells, abilities, and cinematic scenes.*
+*A collection of FREE animated assets designed for use with the Sequencer module, perfect for crafting spells, abilities, and cinematic scenes in Foundry VTT.*
 
 ## ✨ Features
 -  **Free version** with +100 animated effects (Premium **Patreon version** with alternate variations and recolors [here](https://patreon.com/EskieEffects)!)  
