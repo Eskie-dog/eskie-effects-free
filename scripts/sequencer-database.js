@@ -12,7 +12,185 @@ export async function createDatabase(moduleFolder) {
     ranged: [200, 200, 200],
     line: [200, 200, 200],
     };
-    
+    //--------------------
+    //ATTACK
+    //--------------------
+    database.attack = {
+        melee: {
+            generic: {
+                '01': {
+                    bludgeoning: {
+                        heavy: {
+                            yellow: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Fast_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Fast_03.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Normal_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Normal_03.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Slow_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Heavy/Attack_Melee_Generic_01_Bludgeoning_Heavy_Yellow_Slow_03.webm`,
+                                },
+                            },
+                        },
+                        light: {
+                            yellow: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Fast_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Fast_03.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Normal_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Normal_03.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Slow_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Light/Attack_Melee_Generic_01_Bludgeoning_Light_Yellow_Slow_03.webm`,
+                                },
+                            },
+                        },
+                        medium: {
+                            yellow: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Fast_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Fast_03.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Normal_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Normal_03.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Slow_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Bludgeoning/Medium/Attack_Melee_Generic_01_Bludgeoning_Medium_Yellow_Slow_03.webm`,
+                                },
+                            },
+                        },
+                    },
+                    piercing: {
+                        heavy: {
+                            yellow: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Heavy/Attack_Melee_Generic_01_Piercing_Heavy_Yellow_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Heavy/Attack_Melee_Generic_01_Piercing_Heavy_Yellow_Fast_02.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Heavy/Attack_Melee_Generic_01_Piercing_Heavy_Yellow_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Heavy/Attack_Melee_Generic_01_Piercing_Heavy_Yellow_Normal_02.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Heavy/Attack_Melee_Generic_01_Piercing_Heavy_Yellow_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Heavy/Attack_Melee_Generic_01_Piercing_Heavy_Yellow_Slow_02.webm`,
+                                },
+                            },
+                        },
+                        light: {
+                            yellow: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Light/Attack_Melee_Generic_01_Piercing_Light_Yellow_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Light/Attack_Melee_Generic_01_Piercing_Light_Yellow_Fast_02.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Light/Attack_Melee_Generic_01_Piercing_Light_Yellow_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Light/Attack_Melee_Generic_01_Piercing_Light_Yellow_Normal_02.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Light/Attack_Melee_Generic_01_Piercing_Light_Yellow_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Light/Attack_Melee_Generic_01_Piercing_Light_Yellow_Slow_02.webm`,
+                                },
+                            },
+                        },
+                        medium: {
+                            yellow: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Medium/Attack_Melee_Generic_01_Piercing_Medium_Yellow_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Medium/Attack_Melee_Generic_01_Piercing_Medium_Yellow_Fast_02.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Medium/Attack_Melee_Generic_01_Piercing_Medium_Yellow_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Medium/Attack_Melee_Generic_01_Piercing_Medium_Yellow_Normal_02.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Piercing/Medium/Attack_Melee_Generic_01_Piercing_Medium_Yellow_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Piercing/Medium/Attack_Melee_Generic_01_Piercing_Medium_Yellow_Slow_02.webm`,
+                                },
+                            },
+                        },
+                    },
+                    slashing: {
+                        heavy: {
+                            blue: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Fast_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Fast_03.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Normal_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Normal_03.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Slow_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Heavy/Attack_Melee_Generic_01_Slashing_Heavy_Blue_Slow_03.webm`,
+                                },
+                            },
+                        },
+                        light: {
+                            blue: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Fast_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Fast_03.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Normal_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Normal_03.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Slow_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Light/Attack_Melee_Generic_01_Slashing_Light_Blue_Slow_03.webm`,
+                                },
+                            },
+                        },
+                        medium: {
+                            blue: {
+                                fast:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Fast_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Fast_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Fast_03.webm`,
+                                },
+                                normal:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Normal_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Normal_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Normal_03.webm`,
+                                },
+                                slow:{
+                                    '01': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Slow_01.webm`,
+                                    '02': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Slow_02.webm`,
+                                    '03': `${path}/Attack/Melee/Generic/Slashing/Medium/Attack_Melee_Generic_01_Slashing_Medium_Blue_Slow_03.webm`,
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    };    
     //--------------------
     //AURA
     //--------------------
@@ -369,6 +547,18 @@ export async function createDatabase(moduleFolder) {
         '04': {
             white: `${path}/Particle/Particle_04/Particle_04_White.webm`,
         },
+        '05': {
+            orange: `${path}/Particle/Particle_05/Particle_05_Orange.webm`,
+        },
+        '06': {
+            orange: `${path}/Particle/Particle_06/Particle_06_Orange.webm`,
+        },
+        '07': {
+            orange: `${path}/Particle/Particle_07/Particle_07_Orange.webm`,
+        },
+        '08': {
+            orange: `${path}/Particle/Particle_08/Particle_08_Orange.webm`,
+        },
     };
     //--------------------
     //Pulse
@@ -422,6 +612,11 @@ export async function createDatabase(moduleFolder) {
                     black: `${path}/Screen_Overlay/Speed_Lines/SpeedLines_Black_02.webm`,
                     white: `${path}/Screen_Overlay/Speed_Lines/SpeedLines_White_02.webm`,
                 },
+            },
+        },
+        wind_lines: {
+            '01': {
+                white: `${path}/Screen_Overlay/Wind_Lines/ScreenOverlay_WindLines_01.webm`,
             },
         },
     };
@@ -534,6 +729,21 @@ export async function createDatabase(moduleFolder) {
         },
     };
     //--------------------
+    //TRAIL
+    //--------------------
+    database.trail = {
+        token: {
+            generic: {
+                _markers: {
+                    loop: { start: 250, end: 750 }
+                },
+                '01': {
+                    green: `${path}/Trail/Token/Generic/Trail_Token_Generic_01_Green.webm`,
+                },
+            },
+        },
+    };
+    //--------------------
     //VELOCITY 
     //--------------------
     database.velocity = {
@@ -547,6 +757,11 @@ export async function createDatabase(moduleFolder) {
     database.wings = {
         bird: {
             '01': `${path}/Wings/Wings_Bird_01.webm`,
+        },
+        one_wing: {
+            bird: {
+                '01': `${path}/Wings/One_Wing/Wings_OneWing_Bird_01.webm`,
+            },
         },
     };
     //--------------------
