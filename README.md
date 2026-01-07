@@ -34,7 +34,7 @@ eskie
 [<img src="https://simpleicons.vercel.app/twitch/5d5d5d" width="18" height="18" alt="Twitch">](https://www.twitch.tv/eskiemoh)
 [<img src="https://simpleicons.vercel.app/kofi/5d5d5d" width="18" height="18" alt="Ko-fi">](https://ko-fi.com/eskiemoh)
 ArkRoot
-[<img src="https://i.imgur.com/hvUN9H4.png" width="18" height="18" alt="Behance">](https://vgen.co/arkroot)
+[<img src="https://i.imgur.com/hvUN9H4.png" width="18" height="18" alt="Vgen">](https://vgen.co/arkroot)
 [<img src="https://simpleicons.vercel.app/behance/5d5d5d" width="18" height="18" alt="Behance">](https://www.behance.net/arkroot/projects)
 [<img src="https://simpleicons.vercel.app/instagram/5d5d5d" width="18" height="18" alt="Instagram">](https://www.instagram.com/arkroot/)
 
