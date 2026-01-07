@@ -29,10 +29,10 @@ Many of these effects are built from original animated artworks created speciall
 Show some love to these talented artists:
 
 eskie
+[<img src="https://simpleicons.vercel.app/patreon/5d5d5d" width="18" height="18" alt="Patreon">](https://www.patreon.com/EskieEffects)
 [<img src="https://simpleicons.vercel.app/youtube/5d5d5d" width="18" height="18" alt="YouTube">](https://www.youtube.com/@eskieTTRPG)
 [<img src="https://simpleicons.vercel.app/x/5d5d5d" width="18" height="18" alt="Twitter">](https://twitter.com/eskieTTRPG)
 [<img src="https://simpleicons.vercel.app/twitch/5d5d5d" width="18" height="18" alt="Twitch">](https://www.twitch.tv/eskiemoh)
-[<img src="https://simpleicons.vercel.app/kofi/5d5d5d" width="18" height="18" alt="Ko-fi">](https://ko-fi.com/eskiemoh)
 ArkRoot
 [<img src="https://i.imgur.com/hvUN9H4.png" width="18" height="18" alt="Vgen">](https://vgen.co/arkroot)
 [<img src="https://simpleicons.vercel.app/behance/5d5d5d" width="18" height="18" alt="Behance">](https://www.behance.net/arkroot/projects)
