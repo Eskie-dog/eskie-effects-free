@@ -278,7 +278,18 @@ export async function createDatabase(moduleFolder) {
                 },
                 slow: {
                     '01': `${path}/Burn/Token_Mask/Burn_TokenMask_01_Orange_Slow.webm`,
-                },                
+                },        
+                no_base:{
+                    fast: {
+                        '01': `${path}/Burn/Token_Mask/Burn_TokenMask_01_Orange_Fast_NoBase.webm`,
+                    },
+                    normal: {
+                        '01': `${path}/Burn/Token_Mask/Burn_TokenMask_01_Orange_Normal_NoBase.webm`,
+                    },
+                    slow: {
+                        '01': `${path}/Burn/Token_Mask/Burn_TokenMask_01_Orange_Slow_NoBase.webm`,
+                    },
+                },                           
             },
         },
     };
@@ -371,6 +382,81 @@ export async function createDatabase(moduleFolder) {
                         '90ft': `${path}/Crosshair/Ray/Fantasy_01/Crosshair_Ray_Fantasy_01_White_NoBase_90ft.webm`,
                     },
                 },
+            },
+        },
+    };
+    //--------------------
+    //DAMAGE
+    //--------------------
+    database.damage = {
+        bludgeoning: {
+            '01': {
+                yellow: `${path}/Damage/Bludgeoning/Damage_Bludgeoning_01_Yellow.webm`,
+            },
+        },
+        piercing: {
+            '01': {
+                yellow: `${path}/Damage/Piercing/Damage_Piercing_01_Yellow.webm`,
+            },
+        },
+        slashing: {
+            '01': {
+                yellow: `${path}/Damage/Slashing/Damage_Slashing_01_Yellow.webm`,
+            },
+        },
+        critical: {
+            '01': {
+                red: `${path}/Damage/Critical/Damage_Critical_01_Red.webm`,
+            },
+        },
+        acid: {
+            '01': {
+                green: `${path}/Damage/Acid/Damage_Acid_01_Green.webm`,
+            },
+        },
+        cold: {
+            '01': {
+                blue: `${path}/Damage/Cold/Damage_Cold_01_Blue.webm`,
+            },
+        },
+        electricity: {
+            '01': {
+                purple: `${path}/Damage/Electricity/Damage_Electricity_01_Purple.webm`,
+            },
+        },
+        fire: {
+            '01': {
+                orange: `${path}/Damage/Fire/Damage_Fire_01_Orange.webm`,
+            },
+        },
+        force: {
+            '01': {
+                white: `${path}/Damage/Force/Damage_Force_01_White.webm`,
+            },
+        },
+        necrotic: {
+            '01': {
+                teal: `${path}/Damage/Necrotic/Damage_Necrotic_01_Teal.webm`,
+            },
+        },
+        poison: {
+            '01': {
+                green: `${path}/Damage/Poison/Damage_Poison_01_Green.webm`,
+            },
+        },
+        psychic: {
+            '01': {
+                pink: `${path}/Damage/Psychic/Damage_Psychic_01_Pink.webm`,
+            },
+        },
+        radiant: {
+            '01': {
+                yellow: `${path}/Damage/Radiant/Damage_Radiant_01_Yellow.webm`,
+            },
+        },
+        thunder: {
+            '01': {
+                lightpurple: `${path}/Damage/Thunder/Damage_Thunder_01_Lightpurple.webm`,
             },
         },
     };
@@ -652,6 +738,11 @@ export async function createDatabase(moduleFolder) {
         '05': {
             white: `${path}/Smoke/Smoke_05/Smoke_05_White.webm`,
         },
+        token_mask: {
+            '01': {
+                grey: `${path}/Smoke/Token_Mask/Smoke_TokenMask_01_Grey.webm`,
+            },
+        },        
     };
     //--------------------
     //SOUND
@@ -727,6 +818,29 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
+        tile_base: {
+            burn: {
+                '01': {
+                    fast: `${path}/Texture_Mask/Tile_Base/Burn/Tile_Base_Burn_01_Fast.webm`,
+                    normal: `${path}/Texture_Mask/Tile_Base/Burn/Tile_Base_Burn_01_Normal.webm`,
+                    slow: `${path}/Texture_Mask/Tile_Base/Burn/Tile_Base_Burn_01_Slow.webm`,
+                },
+            },
+            shatter: {
+                center: {
+                    '01': `${path}/Texture_Mask/Tile_Base/Shatter/Tile_Base_Shatter_Center_01.webm`,
+                },
+                side: {
+                    '01': `${path}/Texture_Mask/Tile_Base/Shatter/Tile_Base_Shatter_Side_01.webm`,
+                },
+            },
+            smoke: {
+                '01': `${path}/Texture_Mask/Tile_Base/Smoke/Tile_Base_Smoke_01.webm`,
+            },
+            tear: {
+                '01': `${path}/Texture_Mask/Tile_Base/Tear/Tile_Base_Tear_01.webm`,
+            },
+        },        
     };
     //--------------------
     //TRAIL
@@ -774,5 +888,33 @@ export async function createDatabase(moduleFolder) {
             },
             '01': `${path}/Wounds/Cut/Cut_01.webm`,
         },
+        token_mask: {
+            shatter: {
+                center: {
+                    '01': {
+                        white: {
+                            full: `${path}/Wounds/Token_Mask/Shatter/Center/Wounds_TokenMask_Shatter_Center_01_White.webm`,
+                            no_base: `${path}/Wounds/Token_Mask/Shatter/Center/Wounds_TokenMask_Shatter_Center_01_White_NoBase.webm`,
+                        },
+                    },
+                },
+                side: {
+                    '01': {
+                        white: {
+                            full: `${path}/Wounds/Token_Mask/Shatter/Side/Wounds_TokenMask_Shatter_Side_01_White.webm`,
+                            no_base: `${path}/Wounds/Token_Mask/Shatter/Side/Wounds_TokenMask_Shatter_Side_01_White_NoBase.webm`,
+                        },
+                    },
+                },
+            },
+            tear: {
+                '01': {
+                    red: {
+                        full: `${path}/Wounds/Token_Mask/Tear/Wounds_TokenMask_Tear_01_Red.webm`,
+                        no_base: `${path}/Wounds/Token_Mask/Tear/Wounds_TokenMask_Tear_01_Red_NoBase.webm`,
+                    },
+                },
+            },
+        },        
     };
 }
