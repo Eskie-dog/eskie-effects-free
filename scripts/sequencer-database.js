@@ -190,7 +190,14 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
-    };    
+        touch: {
+            generic: {
+                '01': {
+                    blue: `${path}/Attack/Touch/Generic/Attack_Touch_Generic_01_Blue.webm`,
+                },
+            },
+        },
+    };  
     //--------------------
     //AURA
     //--------------------
@@ -218,6 +225,14 @@ export async function createDatabase(moduleFolder) {
                         loop: { start: 500, end: 2500 }
                     },
                     red: `${path}/Aura/Token/Generic/Aura_Token_Generic_02_Red.webm`,
+                },
+            },
+            ribbon: {
+                '01': {
+                    purple: `${path}/Aura/Token/Ribbon/Aura_Token_Ribbon_01_Purple.webm`,
+                },
+                '02': {
+                    purple: `${path}/Aura/Token/Ribbon/Aura_Token_Ribbon_02_Purple.webm`,
                 },
             },
         },
@@ -520,12 +535,46 @@ export async function createDatabase(moduleFolder) {
     //ENVIRONMENT
     //--------------------
     database.environment = {
+        beacon: {
+            generic: {
+                '01': {
+                    _markers: {
+                    loop: { start: 1500, end: 3000 }
+                    },
+                    blue: `${path}/Environment/Beacon/Generic/Environment_Beacon_Generic_01_Blue.webm`,
+                },
+            },
+        },
+        fog: {
+            rolling: {
+                '01': {
+                    blue: {
+                        single: `${path}/Environment/Fog/Rolling/01/Environment_Fog_Rolling_01_Blue_Single.webm`,
+                        few: `${path}/Environment/Fog/Rolling/01/Environment_Fog_Rolling_01_Blue_Few.webm`,
+                    },
+                },
+            },
+        },
         lighting: {
             bokeh: {
                 gold: {
                     few: `${path}/Environment/Lighting/Bokeh/Bokeh_Gold_Few.webm`,
                     many: `${path}/Environment/Lighting/Bokeh/Bokeh_Gold_Many.webm`,
                     large: `${path}/Environment/Lighting/Bokeh/Bokeh_Gold_Large.webm`,
+                },
+            },
+            glow: {
+                stylized: {
+                    circle: {
+                        '01': {
+                            orange: `${path}/Environment/Lighting/Glow/Stylized/Glow_Stylized_Circle_01_Orange.webm`,
+                        },
+                    },
+                    pentagon: {
+                        '01': {
+                            orange: `${path}/Environment/Lighting/Glow/Stylized/Glow_Stylized_Pentagon_01_Orange.webm`,
+                        },
+                    },
                 },
             },
             god_ray:{
@@ -537,6 +586,14 @@ export async function createDatabase(moduleFolder) {
                 '01': {
                     gold: `${path}/Environment/Lighting/Shine/Shine_01_Gold.webm`,
                 }, 
+            },
+        },
+        wisp: {
+            '01': {
+                blue: {
+                    single: `${path}/Environment/Wisp/01/Environment_Wisp_01_Blue_Single.webm`,
+                    few: `${path}/Environment/Wisp/01/Environment_Wisp_01_Blue_Few.webm`,
+                },
             },
         },
     };
@@ -647,6 +704,36 @@ export async function createDatabase(moduleFolder) {
         },
     };
     //--------------------
+    //POISON
+    //--------------------
+    database.poison = {
+        '01': {
+            _markers: {
+                loop: { start: 1500, end: 3000 }
+            },
+            green: {
+                full: `${path}/Poison/01/Poison_01_Green.webm`,
+                no_base: `${path}/Poison/01/Poison_01_Green_NoBase.webm`,
+            },
+        },
+        circle: {
+            '01': {
+                green: `${path}/Poison/Circle/Poison_Circle_01_Green.webm`,
+            },
+        },
+        token_mask: {
+            '01': {
+                _markers: {
+                    loop: { start: 1500, end: 3000 }
+                },
+                green: {
+                    full: `${path}/Poison/Token_Mask/01/Poison_TokenMask_01_Green.webm`,
+                    no_base: `${path}/Poison/Token_Mask/01/Poison_TokenMask_01_Green_NoBase.webm`,
+                },
+            },
+        },    
+    };
+    //--------------------
     //Pulse
     //--------------------
     database.pulse = {
@@ -738,6 +825,12 @@ export async function createDatabase(moduleFolder) {
         '05': {
             white: `${path}/Smoke/Smoke_05/Smoke_05_White.webm`,
         },
+        '06': {
+            white: `${path}/Smoke/Smoke_06/Smoke_06_White.webm`,
+        },
+        '07': {
+            white: `${path}/Smoke/Smoke_07/Smoke_07_White.webm`,
+        },
         token_mask: {
             '01': {
                 grey: `${path}/Smoke/Token_Mask/Smoke_TokenMask_01_Grey.webm`,
@@ -800,6 +893,22 @@ export async function createDatabase(moduleFolder) {
                 green: `${path}/Symbol/Animal/Wolf/Animal_Symbol_Wolf_Green.webm`,
             },
         },
+        eye: {
+            '01': {
+                _markers: {
+                    loop: { start: 1033, end: 1967 }
+                },
+                purple: `${path}/Symbol/Eye/01/Symbol_Eye_01_Purple.webm`,
+            },
+        },
+        skull: {
+            poison: {
+                _markers: {
+                    loop: { start: 1033, end: 1967 }
+                },
+                green: `${path}/Symbol/Skull/Poison/Symbol_Skull_Poison_Green.webm`,
+            },
+        },
     };
     //--------------------
     //TEXTURE MASK
@@ -816,6 +925,14 @@ export async function createDatabase(moduleFolder) {
                     full: `${path}/Texture_Mask/Glitter_Texture/Glitter_Texture_01_White.webm`,
                     particles_only: `${path}/Texture_Mask/Glitter_Texture/Glitter_Texture_01_White_Particles.webm`,
                 },
+            },
+        },
+        ink: {
+            '01': {
+                _markers: {
+                    loop: { start: 3000, end: 6000 }
+                },
+                black: `${path}/Texture_Mask/Ink_Texture/Ink_Texture_01_Black.webm`,
             },
         },
         tile_base: {
