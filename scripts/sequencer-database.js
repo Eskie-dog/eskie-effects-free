@@ -10,9 +10,11 @@ export async function createDatabase(moduleFolder) {
     // Grid size, start point, end point
     default: [100, 0, 0],
     ranged: [200, 200, 200],
+    ranged_01: [200, 0, 200],
     line: [200, 200, 200],
     cone: [200, 0, 100],
     ray: [200, 0, 100],
+    rope_attack: [200, 1000, 200],
     };
     //--------------------
     //ATTACK
@@ -803,6 +805,107 @@ export async function createDatabase(moduleFolder) {
     //OBJECTS
     //-------------------
     database.objects = {
+        biological: {
+            hand: {
+                demon_hand: {
+                    ranged: {
+                        '01': {
+                            _template: 'ranged_01',
+                            physical: {
+                                latch: {
+                                    _markers: {
+                                        loop: { start: 1500, end: 1500 },
+                                        forcedEnd: 1500
+                                    },                                    
+                                    red: {
+                                        '05ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Latch_Red_05ft.webm`,
+                                        '15ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Latch_Red_15ft.webm`,
+                                        '30ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Latch_Red_30ft.webm`,
+                                        '60ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Latch_Red_60ft.webm`,
+                                        '90ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Latch_Red_90ft.webm`,
+                                    },
+                                },
+                                normal: {
+                                    red: {
+                                        '05ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Normal_Red_05ft.webm`,
+                                        '15ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Normal_Red_15ft.webm`,
+                                        '30ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Normal_Red_30ft.webm`,
+                                        '60ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Normal_Red_60ft.webm`,
+                                        '90ft': `${path}/Objects/Biological/Hand/Demon_Hand/Ranged/01/Objects_Biological_Hand_Demon_Hand_Ranged_01_Physical_Normal_Red_90ft.webm`,
+                                    }, 
+                                },
+                            },
+                        },
+                    },
+                },
+                spectral_hand: {
+                    ranged: {
+                        '01': {
+                            _template: 'ranged_01',                            
+                            generic: {
+                                latch: {
+                                    _markers: {
+                                        loop: { start: 1500, end: 1500 },
+                                        forcedEnd: 1500
+                                    },
+                                    teal: {
+                                        '05ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Latch_Teal_05ft.webm`,
+                                        '15ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Latch_Teal_15ft.webm`,
+                                        '30ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Latch_Teal_30ft.webm`,
+                                        '60ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Latch_Teal_60ft.webm`,
+                                        '90ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Latch_Teal_90ft.webm`,
+                                    },
+                                },
+                                normal: {
+                                    teal: {
+                                        '05ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Normal_Teal_05ft.webm`,
+                                        '15ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Normal_Teal_15ft.webm`,
+                                        '30ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Normal_Teal_30ft.webm`,
+                                        '60ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Normal_Teal_60ft.webm`,
+                                        '90ft': `${path}/Objects/Biological/Hand/Spectral_Hand/Ranged/01/Objects_Biological_Hand_Spectral_Hand_Ranged_01_Generic_Normal_Teal_90ft.webm`,
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        chain: {
+            attack: {
+                '01': {
+                    _template: 'rope_attack',
+                    physical: {
+                        iron: `${path}/Objects/Chain/Attack/01/Objects_Chain_Attack_01_Physical_Iron_Normal_01.webm`,
+                    },
+                },
+            },
+            ranged: {
+                '01': {
+                    _template: 'ranged_01',                    
+                    physical: {
+                        iron: {
+                            '05ft': `${path}/Objects/Chain/Ranged/01/Objects_Chain_Ranged_01_Physical_Normal_Iron_05ft.webm`,
+                            '15ft': `${path}/Objects/Chain/Ranged/01/Objects_Chain_Ranged_01_Physical_Normal_Iron_15ft.webm`,
+                            '30ft': `${path}/Objects/Chain/Ranged/01/Objects_Chain_Ranged_01_Physical_Normal_Iron_30ft.webm`,
+                            '60ft': `${path}/Objects/Chain/Ranged/01/Objects_Chain_Ranged_01_Physical_Normal_Iron_60ft.webm`,
+                            '90ft': `${path}/Objects/Chain/Ranged/01/Objects_Chain_Ranged_01_Physical_Normal_Iron_90ft.webm`,
+                        },
+                    },
+                },
+            },
+            token: {
+                '01': {
+                    _markers: {
+                        loop: { start: 1500, end: 2000 },
+                        forcedEnd: 2000
+                    },
+                    physical: {
+                        iron: `${path}/Objects/Chain/Token/01/Objects_Chain_Token_01_Physical_Iron.webm`,
+                    },
+                },
+            },
+        },
         crashing_weapon: {
             _markers: {
                 loop: { start: 1000, end: 4000 }    
@@ -811,6 +914,41 @@ export async function createDatabase(moduleFolder) {
                 yellow: {
                     '01': `${path}/Objects/Crashing_Weapon/Sword/Crashing_Weapon_Sword_01_Yellow.webm`,
                     '02': `${path}/Objects/Crashing_Weapon/Sword/Crashing_Weapon_Sword_02_Yellow.webm`,
+                },
+            },
+        },
+        rope: {
+            attack: {
+                '01': {
+                    _template: 'rope_attack',
+                    physical: {
+                        yellow: `${path}/Objects/Rope/Attack/01/Objects_Rope_Attack_01_Physical_Yellow_Normal_01.webm`,
+                    },
+                },
+            },
+            ranged: {
+                _template: 'ranged_01',
+                '01': {
+                    physical: {
+                        yellow: {
+                            '05ft': `${path}/Objects/Rope/Ranged/01/Objects_Rope_Ranged_01_Physical_Normal_Yellow_05ft.webm`,
+                            '15ft': `${path}/Objects/Rope/Ranged/01/Objects_Rope_Ranged_01_Physical_Normal_Yellow_15ft.webm`,
+                            '30ft': `${path}/Objects/Rope/Ranged/01/Objects_Rope_Ranged_01_Physical_Normal_Yellow_30ft.webm`,
+                            '60ft': `${path}/Objects/Rope/Ranged/01/Objects_Rope_Ranged_01_Physical_Normal_Yellow_60ft.webm`,
+                            '90ft': `${path}/Objects/Rope/Ranged/01/Objects_Rope_Ranged_01_Physical_Normal_Yellow_90ft.webm`,
+                        },
+                    },
+                },
+            },
+            token: {
+                '01': {
+                    _markers: {
+                        loop: { start: 1500, end: 2000 },
+                        forcedEnd: 2000
+                    },                    
+                    physical: {
+                        yellow: `${path}/Objects/Rope/Token/01/Objects_Rope_Token_01_Physical_Yellow.webm`,
+                    },
                 },
             },
         },
