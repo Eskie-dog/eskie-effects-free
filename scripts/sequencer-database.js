@@ -799,7 +799,100 @@ export async function createDatabase(moduleFolder) {
                     pink: `${path}/Nature/Flower/Particle/Flower_Particle_01_Pink.webm`,
                 },
             },
+            rose: {
+                '01': {
+                    _markers: {
+                        loop: { start: 2000, end: 2500 },
+                        forcedEnd: 2500
+                    },    
+                    red: `${path}/Nature/Flower/Rose/01/Nature_Rose_01_Red.webm`,
+                },
+            },
+            token_mask: {
+                '01': {
+                    red: `${path}/Nature/Flower/Token_Mask/01/Nature_Flower_TokenMask_01_Red.webm`,
+                },
+                '01_reversed': {
+                    red: `${path}/Nature/Flower/Token_Mask/01/Nature_Flower_TokenMask_01_Reversed_Red.webm`,
+                },
+            },            
         },
+        leaves: {
+            particle: {
+                '01': {
+                    green: `${path}/Nature/Leaves/Particle/01/Nature_Leaves_Particle_01_Green.webm`,
+                },
+            },
+            token_mask: {
+                '01': {
+                    green: `${path}/Nature/Leaves/Token_Mask/01/Nature_Leaves_TokenMask_01_Green.webm`,
+                },
+                '01_reversed': {
+                    green: `${path}/Nature/Leaves/Token_Mask/01/Nature_Leaves_TokenMask_01_Reversed_Green.webm`,
+                },
+            },
+        },
+        vine: {
+                        normal: {
+                '01': {
+                    _markers: {
+                        loop: { start: 750, end: 750 }    
+                    },
+                    physical: {
+                        green: `${path}/Nature/Vine/Normal/01/Nature_Vine_Normal_01_Physical_Green.webm`,
+                    },
+                },
+                attack: {
+                    '01': {
+                        _template: 'rope_attack',
+                        physical: {
+                            green: `${path}/Nature/Vine/Normal/Attack/01/Nature_Vine_Normal_Attack_01_Physical_Green_Normal_01.webm`,
+                        },
+                    },
+                },
+                circle: {
+                    '01': {
+                        _markers: {
+                            loop: { start: 2500, end: 2500 }    
+                        },
+                        physical: {
+                            green: {
+                                radius_10ft: `${path}/Nature/Vine/Normal/Circle/01/Nature_Vine_Normal_Circle_01_Physical_Green_10ft.webm`,
+                                radius_20ft: `${path}/Nature/Vine/Normal/Circle/01/Nature_Vine_Normal_Circle_01_Physical_Green_20ft.webm`,
+                                radius_30ft: `${path}/Nature/Vine/Normal/Circle/01/Nature_Vine_Normal_Circle_01_Physical_Green_30ft.webm`,
+                            },
+                        },
+                    },
+                },
+                ranged: {
+                    '01': {
+                        _template: 'ranged_01',
+                        physical: {
+                            normal: {
+                                green: {
+                                    '05ft': `${path}/Nature/Vine/Normal/Ranged/01/Nature_Vine_Normal_Ranged_01_Physical_Normal_Green_05ft.webm`,
+                                    '15ft': `${path}/Nature/Vine/Normal/Ranged/01/Nature_Vine_Normal_Ranged_01_Physical_Normal_Green_15ft.webm`,
+                                    '30ft': `${path}/Nature/Vine/Normal/Ranged/01/Nature_Vine_Normal_Ranged_01_Physical_Normal_Green_30ft.webm`,
+                                    '60ft': `${path}/Nature/Vine/Normal/Ranged/01/Nature_Vine_Normal_Ranged_01_Physical_Normal_Green_60ft.webm`,
+                                    '90ft': `${path}/Nature/Vine/Normal/Ranged/01/Nature_Vine_Normal_Ranged_01_Physical_Normal_Green_90ft.webm`,
+                                },
+                            },
+                        },
+                    }
+                },
+                token: {
+                    '01': {
+                        _markers: {
+                            loop: { start: 1750, end: 2000 },
+                            forcedEnd: 2000
+                        },
+                        physical: {
+                            green: `${path}/Nature/Vine/Normal/Token/01/Nature_Vine_Normal_Token_01_Physical_Green.webm`,
+                        },
+                    },
+                },
+            },
+        },        
     };
     //-------------------
     //OBJECTS
@@ -1226,6 +1319,14 @@ export async function createDatabase(moduleFolder) {
                     normal: `${path}/Texture_Mask/Tile_Base/Burn/Tile_Base_Burn_01_Normal.webm`,
                     slow: `${path}/Texture_Mask/Tile_Base/Burn/Tile_Base_Burn_01_Slow.webm`,
                 },
+            },
+            flower: {
+                '01': `${path}/Texture_Mask/Tile_Base/Flower/Tile_Base_Flower_01.webm`,
+                '01_reversed': `${path}/Texture_Mask/Tile_Base/Flower/Tile_Base_Flower_01_Reversed.webm`,
+            },
+            leaves: {
+                '01': `${path}/Texture_Mask/Tile_Base/Leaves/Tile_Base_Leaves_01.webm`,
+                '01_reversed': `${path}/Texture_Mask/Tile_Base/Leaves/Tile_Base_Leaves_01_Reversed.webm`,
             },
             shatter: {
                 center: {
