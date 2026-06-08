@@ -457,6 +457,123 @@ export async function createDatabase(moduleFolder) {
         },
     };
     //--------------------
+    //CASTING
+    //--------------------
+    database.casting = {
+        arcane: {
+            '01': {
+                center: {
+                    one_shot: {
+                        blue: `${path}/Casting/Arcane/01/Center/OneShot/Casting_Arcane_01_Center_OneShot_Blue.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 1750 },
+                            forcedEnd: 1750,    
+                        },                        
+                        blue: `${path}/Casting/Arcane/01/Center/Loop/Casting_Arcane_01_Center_Loop_Blue.webm`,                     
+                    },
+                },
+                side: {
+                    one_shot: {
+                        blue: `${path}/Casting/Arcane/01/Side/OneShot/Casting_Arcane_01_Side_OneShot_Blue.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 1750 },
+                            forcedEnd: 1750,    
+                        },                           
+                        blue: `${path}/Casting/Arcane/01/Side/Loop/Casting_Arcane_01_Side_Loop_Blue.webm`,
+                    },
+                },
+            },       
+        },
+        divine: {
+            '01': {
+                center: {
+                    one_shot: {
+                        yellow: `${path}/Casting/Divine/01/Center/OneShot/Casting_Divine_01_Center_OneShot_Yellow.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 1750 },
+                            forcedEnd: 1750,    
+                        },                           
+                        yellow: `${path}/Casting/Divine/01/Center/Loop/Casting_Divine_01_Center_Loop_Yellow.webm`,
+                    },
+                },
+                side: {
+                    one_shot: {
+                        yellow: `${path}/Casting/Divine/01/Side/OneShot/Casting_Divine_01_Side_OneShot_Yellow.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 1750 },
+                            forcedEnd: 1750,    
+                        },                           
+                        yellow: `${path}/Casting/Divine/01/Side/Loop/Casting_Divine_01_Side_Loop_Yellow.webm`,
+                    },
+                },
+            },          
+        },
+        nature: {
+            '01': {
+                center: {
+                    one_shot: {
+                        green: `${path}/Casting/Nature/01/Center/OneShot/Casting_Nature_01_Center_OneShot_Green.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 2250 },
+                            forcedEnd: 2250,
+                        },                           
+                        green: `${path}/Casting/Nature/01/Center/Loop/Casting_Nature_01_Center_Loop_Green.webm`,
+                    },
+                },
+                side: {
+                    one_shot: {
+                        green: `${path}/Casting/Nature/01/Side/OneShot/Casting_Nature_01_Side_OneShot_Green.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 2250 },
+                            forcedEnd: 2250,
+                        },                              
+                        green: `${path}/Casting/Nature/01/Side/Loop/Casting_Nature_01_Side_Loop_Green.webm`,
+                    },
+                },
+            },          
+        },
+        physical: {
+            '01': {
+                center: {
+                    one_shot: {
+                        white: `${path}/Casting/Physical/01/Center/OneShot/Casting_Physical_01_Center_OneShot_White.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 1750 },
+                            forcedEnd: 1750,    
+                        },                           
+                        white: `${path}/Casting/Physical/01/Center/Loop/Casting_Physical_01_Center_Loop_White.webm`,
+                    },
+                },
+                side: {
+                    one_shot: {
+                        white: `${path}/Casting/Physical/01/Side/OneShot/Casting_Physical_01_Side_OneShot_White.webm`,
+                    },
+                    loop: {
+                        _markers: {
+                            loop: { start: 1250, end: 1750 },
+                            forcedEnd: 1750,
+                        },                               
+                        white: `${path}/Casting/Physical/01/Side/Loop/Casting_Physical_01_Side_Loop_White.webm`,
+                    },
+                },
+            },                                       
+        }
+    };
+    //--------------------
     //CROSSHAIR
     //--------------------
     database.crosshair = {
@@ -547,6 +664,11 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
+        reticle: {
+           generic_01: {
+                white: `${path}/Crosshair/Reticle/Generic_01/Crosshair_Reticle_Generic_01_White.webm`,
+           }, 
+        },        
     };
     //--------------------
     //DAMAGE
@@ -1270,6 +1392,14 @@ export async function createDatabase(moduleFolder) {
                 green: `${path}/Symbol/Animal/Wolf/Animal_Symbol_Wolf_Green.webm`,
             },
         },
+        evil_face: {
+            '01': {
+                _markers: {
+                    loop: { start: 250, end: 750 }
+                },
+                purple: `${path}/Symbol/Evil_Face/01/Symbol_Evil_Face_01_Purple.webm`,
+            },
+        },        
         eye: {
             '01': {
                 _markers: {
@@ -1359,6 +1489,42 @@ export async function createDatabase(moduleFolder) {
             },
         },
     };
+    //--------------------
+    //UI    
+    //--------------------
+    database.ui = {
+        ability_check: {
+            d20: {
+                '01': {
+                    roll: {
+                        _markers: {
+                            loop: { start: 1000, end: 1500 }    
+                        },                          
+                        default: {
+                            white: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Roll_Default_White.webm`,
+                        },
+                        fail: {
+                            red: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Roll_Fail_Red.webm`,
+                        },
+                        pass: {
+                            green: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Roll_Pass_Green.webm`,
+                        },
+                    },
+                    static: {
+                        default: {
+                            white: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Static_Default_White.webm`,
+                        },
+                        fail: {
+                            red: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Static_Fail_Red.webm`,
+                        },
+                        pass: {
+                            green: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Static_Pass_Green.webm`,
+                        },
+                    },                    
+                },
+            },
+        },
+    };    
     //--------------------
     //VELOCITY 
     //--------------------
