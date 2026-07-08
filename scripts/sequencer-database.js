@@ -355,6 +355,14 @@ export async function createDatabase(moduleFolder) {
                 orange: `${path}/Aura/Fire/Aura_Fire_01_Orange.webm`,
             },
         },
+        twilight: {
+            _markers: {
+                loop: { start: 750, end: 3250 }
+            },            
+            '01': {
+                blue: `${path}/Aura/Twilight/Aura_Twilight_01_Blue.webm`,
+            },
+        },        
         water: {
             '01:': {
                 blue: `${path}/Aura/Water/Aura_Water_01_Blue.webm`,
@@ -383,6 +391,14 @@ export async function createDatabase(moduleFolder) {
                     purple: `${path}/Aura/Token/Ribbon/Aura_Token_Ribbon_02_Purple.webm`,
                 },
             },
+            twilight: {
+                _markers: {
+                    loop: { start: 750, end: 2250 }
+                },                   
+                '01': {
+                    blue: `${path}/Aura/Token/Twilight/Aura_Token_Twilight_01_Blue.webm`,
+                },
+            },            
         },
     };
     //--------------------
@@ -1357,6 +1373,22 @@ export async function createDatabase(moduleFolder) {
         '03': {
             white: `${path}/Star/Star_03/Star_03_White.webm`,
         },
+        constellation: {
+            line: {
+                '01': {
+                    _markers: {
+                        loop: { start: 1250, end: 2250 }
+                    },                      
+                    blue: {
+                        '05ft': `${path}/Star/Constellation/Line/01/Star_Constellation_Line_01_Blue_05ft.webm`,
+                        '15ft': `${path}/Star/Constellation/Line/01/Star_Constellation_Line_01_Blue_15ft.webm`,
+                        '30ft': `${path}/Star/Constellation/Line/01/Star_Constellation_Line_01_Blue_30ft.webm`,
+                        '60ft': `${path}/Star/Constellation/Line/01/Star_Constellation_Line_01_Blue_60ft.webm`,
+                        '90ft': `${path}/Star/Constellation/Line/01/Star_Constellation_Line_01_Blue_90ft.webm`,
+                    },
+                },
+            },
+        },        
         shooting_star: {
             '01': {
                 purple: `${path}/Star/Shooting_Star/Shooting_Star_01/Shooting_Star_01_Purple.webm`,
@@ -1392,6 +1424,33 @@ export async function createDatabase(moduleFolder) {
                 green: `${path}/Symbol/Animal/Wolf/Animal_Symbol_Wolf_Green.webm`,
             },
         },
+        constellation: {
+            complete: {
+                _markers: {
+                    loop: { start: 1500, end: 2750 }
+                },                  
+                '01': {
+                    balance: {
+                        blue: `${path}/Symbol/Constellation/Complete/01/Symbol_Constellation_Complete_01_Balance_Blue.webm`,
+                    },
+                },          
+            },
+            stars_only: {
+                _markers: {
+                    loop: { start: 1500, end: 2750 }
+                },                   
+                balance: {
+                    blue: `${path}/Symbol/Constellation/Stars_Only/Symbol_Constellation_Stars_Only_Balance_Blue.webm`,
+                }
+            },
+            symbol_only: {
+                '01': {
+                    balance: {
+                        blue: `${path}/Symbol/Constellation/Symbol_Only/01/Symbol_Constellation_Symbol_Only_01_Balance_Blue.webm`,
+                    },
+                },
+            },            
+        },        
         evil_face: {
             '01': {
                 _markers: {
@@ -1489,6 +1548,34 @@ export async function createDatabase(moduleFolder) {
             },
         },
     };
+    //--------------------
+    //TWILIGHT
+    //--------------------
+    database.twilight = {
+        circle: {
+            shower: {
+                '01': {
+                    blue: {
+                        radius_05ft: `${path}/Twilight/Circle/Shower/01/Twilight_Circle_Shower_01_Blue_05ft.webm`,
+                        radius_10ft: `${path}/Twilight/Circle/Shower/01/Twilight_Circle_Shower_01_Blue_10ft.webm`,
+                        radius_20ft: `${path}/Twilight/Circle/Shower/01/Twilight_Circle_Shower_01_Blue_20ft.webm`,
+                    },
+                },
+            },
+        },
+        ranged: {
+            '01': {
+                _template: 'ranged',
+                blue: {
+                    '05ft': `${path}/Twilight/Ranged/01/Twilight_Ranged_01_Blue_05ft.webm`,
+                    '15ft': `${path}/Twilight/Ranged/01/Twilight_Ranged_01_Blue_15ft.webm`,
+                    '30ft': `${path}/Twilight/Ranged/01/Twilight_Ranged_01_Blue_30ft.webm`,
+                    '60ft': `${path}/Twilight/Ranged/01/Twilight_Ranged_01_Blue_60ft.webm`,
+                    '90ft': `${path}/Twilight/Ranged/01/Twilight_Ranged_01_Blue_90ft.webm`,
+                },
+            },    
+        },
+    };    
     //--------------------
     //UI    
     //--------------------
