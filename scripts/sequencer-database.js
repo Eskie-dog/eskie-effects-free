@@ -11,6 +11,7 @@ export async function createDatabase(moduleFolder) {
     default: [100, 0, 0],
     ranged: [200, 200, 200],
     ranged_01: [200, 0, 200],
+    ranged_02: [200, 100, 200],    
     line: [200, 200, 200],
     cone: [200, 0, 100],
     ray: [200, 0, 100],
@@ -680,6 +681,28 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
+        rectangle:{
+            fantasy_01:{
+                white: {
+                    full: {
+                        '05x05ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_05x05ft.webm`,
+                        '10x05ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_10x05ft.webm`,
+                        '10x10ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_10x10ft.webm`,
+                        '20x10ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_20x10ft.webm`,
+                        '20x20ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_20x20ft.webm`,
+                        '40x20ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_40x20ft.webm`,
+                    },
+                    no_base: {
+                        '05x05ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_NoBase_05x05ft.webm`,
+                        '10x05ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_NoBase_10x05ft.webm`,
+                        '10x10ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_NoBase_10x10ft.webm`,
+                        '20x10ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_NoBase_20x10ft.webm`,
+                        '20x20ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_NoBase_20x20ft.webm`,
+                        '40x20ft': `${path}/Crosshair/Rectangle/Fantasy_01/Crosshair_Rectangle_Fantasy_01_White_NoBase_40x20ft.webm`,
+                    },
+                },
+            },
+        },        
         reticle: {
            generic_01: {
                 white: `${path}/Crosshair/Reticle/Generic_01/Crosshair_Reticle_Generic_01_White.webm`,
@@ -874,6 +897,66 @@ export async function createDatabase(moduleFolder) {
                 }, 
             },
         },
+        portal: {   
+            generic: {
+                '01': {
+                    center: {
+                        one_shot: {
+                            _markers: {
+                                loop: { start: 750, end: 2750 }
+                            },
+                            full: {
+                                purple: `${path}/Environment/Portal/Generic/01/Center/OneShot/Environment_Portal_Generic_01_Center_OneShot_Purple.webm`,
+                            },
+                            no_base: {
+                                purple: `${path}/Environment/Portal/Generic/01/Center/OneShot/Environment_Portal_Generic_01_Center_OneShot_Purple_NoBase.webm`,
+                            },
+                        },
+                        loop: {
+                            full: {
+                                purple: `${path}/Environment/Portal/Generic/01/Center/Loop/Environment_Portal_Generic_01_Center_Loop_Purple.webm`,
+                            },
+                            no_base: {
+                                purple: `${path}/Environment/Portal/Generic/01/Center/Loop/Environment_Portal_Generic_01_Center_Loop_Purple_NoBase.webm`,
+                            },
+                        },
+                    },
+                    side: {
+                        one_shot: {
+                            _markers: {
+                                loop: { start: 750, end: 2750 }
+                            },
+                            full: {
+                                purple: `${path}/Environment/Portal/Generic/01/Side/OneShot/Environment_Portal_Generic_01_Side_OneShot_Purple.webm`,
+                            },
+                            no_base: {
+                                purple: `${path}/Environment/Portal/Generic/01/Side/OneShot/Environment_Portal_Generic_01_Side_OneShot_Purple_NoBase.webm`,
+                            },
+                        },
+                        loop: {
+                            full: {
+                                purple: `${path}/Environment/Portal/Generic/01/Side/Loop/Environment_Portal_Generic_01_Side_Loop_Purple.webm`,
+                            },
+                            no_base: {
+                                purple: `${path}/Environment/Portal/Generic/01/Side/Loop/Environment_Portal_Generic_01_Side_Loop_Purple_NoBase.webm`,
+                            },
+                        },
+                    },
+                },
+            },
+            token: {
+                enter: {
+                    '01': {
+                        center: {
+                            white: `${path}/Environment/Portal/Token/Enter/01/Center/Environment_Portal_Token_Enter_01_Center.webm`,
+                        },
+                        side: {
+                            white: `${path}/Environment/Portal/Token/Enter/01/Side/Environment_Portal_Token_Enter_01_Side.webm`,
+                        },
+                    },
+                },
+            },
+        },        
         wisp: {
             '01': {
                 blue: {
@@ -1517,6 +1600,25 @@ export async function createDatabase(moduleFolder) {
                 '01': `${path}/Texture_Mask/Tile_Base/Leaves/Tile_Base_Leaves_01.webm`,
                 '01_reversed': `${path}/Texture_Mask/Tile_Base/Leaves/Tile_Base_Leaves_01_Reversed.webm`,
             },
+            portal: {
+                generic: {
+                    '01': {
+                        center: {
+                            one_shot: `${path}/Texture_Mask/Tile_Base/Portal/Generic/01/Tile_Base_Portal_Generic_01_Center_OneShot.webm`,
+                            loop: `${path}/Texture_Mask/Tile_Base/Portal/Generic/01/Tile_Base_Portal_Generic_01_Center_Loop.webm`,
+                        },
+                        side: {
+                            one_shot: `${path}/Texture_Mask/Tile_Base/Portal/Generic/01/Tile_Base_Portal_Generic_01_Side_OneShot.webm`,
+                            loop: `${path}/Texture_Mask/Tile_Base/Portal/Generic/01/Tile_Base_Portal_Generic_01_Side_Loop.webm`,
+                        },
+                    },
+                },
+                token: {
+                    enter: {
+                        '01': `${path}/Texture_Mask/Tile_Base/Portal/Token/Enter/01/Tile_Base_Portal_Token_Enter_01.webm`,
+                    },
+                },
+            },            
             shatter: {
                 center: {
                     '01': `${path}/Texture_Mask/Tile_Base/Shatter/Tile_Base_Shatter_Center_01.webm`,
@@ -1620,6 +1722,61 @@ export async function createDatabase(moduleFolder) {
             white: `${path}/Velocity/Velocity_01_White.webm`,
         },
     };
+    //--------------------
+    //VOID
+    //--------------------
+    database.void = {
+        '01': {
+            purple: `${path}/Void/01/Void_01_Purple.webm`,
+        },
+        circle: {
+            '01': {
+                purple: `${path}/Void/Circle/01/Void_Circle_01_Purple.webm`,
+            },
+            '02': {
+                _markers: {
+                    loop: { start: 1000, end: 4000 },
+                },
+                purple: `${path}/Void/Circle/02/Void_Circle_02_Purple.webm`,
+            },
+            '03': {              
+                purple: `${path}/Void/Circle/03/Void_Circle_03_Purple.webm`,
+            },
+        },
+        ranged: {
+            '01': {
+                _template: 'ranged_02',
+                purple: {
+                        '05ft': `${path}/Void/Ranged/01/Void_Ranged_01_Purple_05ft.webm`,
+                        '15ft': `${path}/Void/Ranged/01/Void_Ranged_01_Purple_15ft.webm`,
+                        '30ft': `${path}/Void/Ranged/01/Void_Ranged_01_Purple_30ft.webm`,
+                        '60ft': `${path}/Void/Ranged/01/Void_Ranged_01_Purple_60ft.webm`,
+                        '90ft': `${path}/Void/Ranged/01/Void_Ranged_01_Purple_90ft.webm`,
+                },
+            },
+            '02': {
+                _template: 'ranged_02',
+                _markers: {
+                    loop: { start: 1000, end: 1750 },
+                },    
+                purple: {
+                    '05ft': `${path}/Void/Ranged/02/Void_Ranged_02_Purple_05ft.webm`,
+                    '15ft': `${path}/Void/Ranged/02/Void_Ranged_02_Purple_15ft.webm`,
+                    '30ft': `${path}/Void/Ranged/02/Void_Ranged_02_Purple_30ft.webm`,
+                    '60ft': `${path}/Void/Ranged/02/Void_Ranged_02_Purple_60ft.webm`,
+                    '90ft': `${path}/Void/Ranged/02/Void_Ranged_02_Purple_90ft.webm`,
+                },
+            },
+        },
+        token: {
+            '01': {
+                purple: {
+                    single: `${path}/Void/Token/01/Void_Token_01_Purple_Single.webm`,
+                    few: `${path}/Void/Token/01/Void_Token_01_Purple_Few.webm`,
+                },
+            },
+        },
+    };    
     //--------------------
     //WINGS
     //--------------------
