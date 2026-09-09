@@ -956,7 +956,16 @@ export async function createDatabase(moduleFolder) {
                     },
                 },
             },
-        },        
+        },   
+        water: {
+            ripples: {
+                floating: {
+                    '01': {
+                        white: `${path}/Environment/Water/Ripples/Floating/Environment_Water_Ripples_Floating_01_White.webm`,
+                    },
+                },
+            },
+        },
         wisp: {
             '01': {
                 blue: {
@@ -1180,6 +1189,121 @@ export async function createDatabase(moduleFolder) {
                                     },
                                 },
                             },
+                        },
+                    },
+                },
+            },
+            tentacle: {
+                '01': {
+                    physical: {
+                        loop: {
+                            _markers: {
+                                loop: { start: 1000, end: 3000 },
+                            },                            
+                            pink: {
+                                '01': `${path}/Objects/Biological/Tentacle/01/Physical/Loop/Objects_Biological_Tentacle_01_Physical_Loop_Pink_01.webm`,
+                                '02': `${path}/Objects/Biological/Tentacle/01/Physical/Loop/Objects_Biological_Tentacle_01_Physical_Loop_Pink_02.webm`,
+                                '03': `${path}/Objects/Biological/Tentacle/01/Physical/Loop/Objects_Biological_Tentacle_01_Physical_Loop_Pink_03.webm`,
+                            },
+                        },
+                        one_shot: {
+                            pink: {
+                                '01': `${path}/Objects/Biological/Tentacle/01/Physical/OneShot/Objects_Biological_Tentacle_01_Physical_OneShot_Pink_01.webm`,
+                                '02': `${path}/Objects/Biological/Tentacle/01/Physical/OneShot/Objects_Biological_Tentacle_01_Physical_OneShot_Pink_02.webm`,
+                                '03': `${path}/Objects/Biological/Tentacle/01/Physical/OneShot/Objects_Biological_Tentacle_01_Physical_OneShot_Pink_03.webm`,
+                            },
+                        },
+                    },
+                },
+                attack: {
+                    '01': {
+                        physical: {
+                            pink: `${path}/Objects/Biological/Tentacle/Attack/01/Physical/Objects_Biological_Tentacle_Attack_01_Physical_Pink_Normal_01.webm`,
+                        },
+                    },
+                },
+                circle: {
+                    '01': {
+                        physical: {
+                            pink: `${path}/Objects/Biological/Tentacle/Circle/01/Physical/Objects_Biological_Tentacle_Circle_01_Physical_Pink.webm`,
+                        },
+                    },
+                    ring: {
+                        '01': {
+                            physical: {
+                                loop: {
+                                    _markers: {
+                                        loop: { start: 1000, end: 3000 },
+                                    },      
+                                    pink: {
+                                        radius_10ft: `${path}/Objects/Biological/Tentacle/Circle/Ring/01/Physical/Loop/Objects_Biological_Tentacle_Circle_Ring_01_Physical_Loop_Pink_10ft.webm`,
+                                        radius_20ft: `${path}/Objects/Biological/Tentacle/Circle/Ring/01/Physical/Loop/Objects_Biological_Tentacle_Circle_Ring_01_Physical_Loop_Pink_20ft.webm`,
+                                        radius_30ft: `${path}/Objects/Biological/Tentacle/Circle/Ring/01/Physical/Loop/Objects_Biological_Tentacle_Circle_Ring_01_Physical_Loop_Pink_30ft.webm`,
+                                    },
+                                },
+                                one_shot: {
+                                    pink: {
+                                        radius_10ft: `${path}/Objects/Biological/Tentacle/Circle/Ring/01/Physical/OneShot/Objects_Biological_Tentacle_Circle_Ring_01_Physical_OneShot_Pink_10ft.webm`,
+                                        radius_20ft: `${path}/Objects/Biological/Tentacle/Circle/Ring/01/Physical/OneShot/Objects_Biological_Tentacle_Circle_Ring_01_Physical_OneShot_Pink_20ft.webm`,
+                                        radius_30ft: `${path}/Objects/Biological/Tentacle/Circle/Ring/01/Physical/OneShot/Objects_Biological_Tentacle_Circle_Ring_01_Physical_OneShot_Pink_30ft.webm`,
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+                cone: {
+                    thin: {
+                        '01': {
+                            _template: 'cone',
+                            physical: {
+                                pink: {
+                                    '15ft': `${path}/Objects/Biological/Tentacle/Cone/Thin/01/Physical/Objects_Biological_Tentacle_Cone_Thin_01_Physical_Pink_15ft.webm`,
+                                    '30ft': `${path}/Objects/Biological/Tentacle/Cone/Thin/01/Physical/Objects_Biological_Tentacle_Cone_Thin_01_Physical_Pink_30ft.webm`,
+                                    '60ft': `${path}/Objects/Biological/Tentacle/Cone/Thin/01/Physical/Objects_Biological_Tentacle_Cone_Thin_01_Physical_Pink_60ft.webm`,
+                                    '90ft': `${path}/Objects/Biological/Tentacle/Cone/Thin/01/Physical/Objects_Biological_Tentacle_Cone_Thin_01_Physical_Pink_90ft.webm`,
+                                },
+                            },
+                        },
+                    },
+                    wide: {
+                        '01': {
+                            _template: 'cone',
+                            physical: {
+                                pink: {
+                                    '15ft': `${path}/Objects/Biological/Tentacle/Cone/Wide/01/Physical/Objects_Biological_Tentacle_Cone_Wide_01_Physical_Pink_15ft.webm`,
+                                    '30ft': `${path}/Objects/Biological/Tentacle/Cone/Wide/01/Physical/Objects_Biological_Tentacle_Cone_Wide_01_Physical_Pink_30ft.webm`,
+                                    '60ft': `${path}/Objects/Biological/Tentacle/Cone/Wide/01/Physical/Objects_Biological_Tentacle_Cone_Wide_01_Physical_Pink_60ft.webm`,
+                                    '90ft': `${path}/Objects/Biological/Tentacle/Cone/Wide/01/Physical/Objects_Biological_Tentacle_Cone_Wide_01_Physical_Pink_90ft.webm`,
+                                },
+                            },
+                        },
+                    },
+                },
+                ranged: {
+                    '01': {
+                        _template: 'ranged_01',
+                        physical: {
+                            normal: {
+                                pink: {
+                                    '05ft': `${path}/Objects/Biological/Tentacle/Ranged/01/Physical/Objects_Biological_Tentacle_Ranged_01_Physical_Normal_Pink_05ft.webm`,
+                                    '15ft': `${path}/Objects/Biological/Tentacle/Ranged/01/Physical/Objects_Biological_Tentacle_Ranged_01_Physical_Normal_Pink_15ft.webm`,
+                                    '30ft': `${path}/Objects/Biological/Tentacle/Ranged/01/Physical/Objects_Biological_Tentacle_Ranged_01_Physical_Normal_Pink_30ft.webm`,
+                                    '60ft': `${path}/Objects/Biological/Tentacle/Ranged/01/Physical/Objects_Biological_Tentacle_Ranged_01_Physical_Normal_Pink_60ft.webm`,
+                                    '90ft': `${path}/Objects/Biological/Tentacle/Ranged/01/Physical/Objects_Biological_Tentacle_Ranged_01_Physical_Normal_Pink_90ft.webm`,
+                                },
+                            },
+                        },
+                    },
+                },
+                token: {
+                    '01': {
+                        _markers: {
+                            loop: { start: 2000, end: 2000 },
+                            forcedEnd: 2000
+                        },
+                        physical: {
+                            pink: `${path}/Objects/Biological/Tentacle/Token/01/Physical/Objects_Biological_Tentacle_Token_01_Physical_Pink.webm`,
                         },
                     },
                 },
@@ -1648,6 +1772,11 @@ export async function createDatabase(moduleFolder) {
                     green: `${path}/Trail/Token/Generic/Trail_Token_Generic_01_Green.webm`,
                 },
             },
+            swimming: {
+                '01': {
+                    white: `${path}/Trail/Token/Swimming/Trail_Token_Swimming_01_White.webm`,
+                },
+            },            
         },
     };
     //--------------------
@@ -1690,6 +1819,8 @@ export async function createDatabase(moduleFolder) {
                             loop: { start: 1000, end: 1500 }    
                         },                          
                         default: {
+                            green: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Roll_Default_Green.webm`,
+                            red: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Roll_Default_Red.webm`,
                             white: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Roll_Default_White.webm`,
                         },
                         fail: {
@@ -1701,6 +1832,8 @@ export async function createDatabase(moduleFolder) {
                     },
                     static: {
                         default: {
+                            green: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Static_Default_Green.webm`,
+                            red: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Static_Default_Red.webm`,
                             white: `${path}/UI/Ability_Check/D20/01/UI_Ability_Check_D20_01_Static_Default_White.webm`,
                         },
                         fail: {
