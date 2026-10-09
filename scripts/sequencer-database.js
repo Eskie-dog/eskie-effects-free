@@ -966,6 +966,16 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
+        web: {
+            '01': {
+                _markers: {
+                    loop: { start: 1000, end: 1000 }
+                },
+                physical: {
+                    white: `${path}/Environment/Web/01/Environment_Web_01_Physical_White.webm`
+                },
+            },
+        },        
         wisp: {
             '01': {
                 blue: {
@@ -1909,7 +1919,97 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
-    };    
+    };   
+    //--------------------
+    //WEB
+    //--------------------
+    database.web = {
+        circle: {
+            '01': {
+                _markers: {
+                    loop: { start: 1750, end: 1750 },
+                    forcedEnd: 1750,                       
+                },                  
+                physical: {
+                    white: {
+                        'radius_10ft': `${path}/Web/Circle/01/Physical/Web_Circle_01_Physical_White_10ft.webm`,
+                        'radius_20ft': `${path}/Web/Circle/01/Physical/Web_Circle_01_Physical_White_20ft.webm`,
+                        'radius_30ft': `${path}/Web/Circle/01/Physical/Web_Circle_01_Physical_White_30ft.webm`
+                    },
+                },
+            },
+        },
+        cone: {
+            thin: {
+                _template: 'cone',
+                _markers: {
+                    loop: { start: 1000, end: 1000 },
+                    forcedEnd: 1000,                       
+                },  
+                physical: {
+                    white: {
+                        '15ft': `${path}/Web/Cone/Thin/Physical/Web_Cone_Thin_Physical_White_15ft.webm`,
+                        '30ft': `${path}/Web/Cone/Thin/Physical/Web_Cone_Thin_Physical_White_30ft.webm`,
+                        '60ft': `${path}/Web/Cone/Thin/Physical/Web_Cone_Thin_Physical_White_60ft.webm`,
+                        '90ft': `${path}/Web/Cone/Thin/Physical/Web_Cone_Thin_Physical_White_90ft.webm`,
+                    },
+                },
+            },
+            wide: {
+                _template: 'cone',
+                _markers: {
+                    loop: { start: 1000, end: 1000 },
+                    forcedEnd: 1000,
+                },
+                physical: {
+                    white: {
+                        '15ft': `${path}/Web/Cone/Wide/Physical/Web_Cone_Wide_Physical_White_15ft.webm`,
+                        '30ft': `${path}/Web/Cone/Wide/Physical/Web_Cone_Wide_Physical_White_30ft.webm`,
+                        '60ft': `${path}/Web/Cone/Wide/Physical/Web_Cone_Wide_Physical_White_60ft.webm`,
+                        '90ft': `${path}/Web/Cone/Wide/Physical/Web_Cone_Wide_Physical_White_90ft.webm`,
+                    },
+                },
+            },
+        },
+        ranged: {
+            '01': {
+                _template: 'ranged',
+                white: {
+                    '05ft': `${path}/Web/Ranged/01/Web_Ranged_01_White_05ft.webm`,
+                    '15ft': `${path}/Web/Ranged/01/Web_Ranged_01_White_15ft.webm`,
+                    '30ft': `${path}/Web/Ranged/01/Web_Ranged_01_White_30ft.webm`,
+                    '60ft': `${path}/Web/Ranged/01/Web_Ranged_01_White_60ft.webm`,
+                    '90ft': `${path}/Web/Ranged/01/Web_Ranged_01_White_90ft.webm`,
+                },
+            },
+        },
+        rectangle: {
+            '01': {
+                _markers: {
+                    loop: { start: 1750, end: 1750 },
+                    forcedEnd: 1750,                       
+                },    
+                physical: {
+                    white: {
+                        '05x05ft': `${path}/Web/Rectangle/01/Physical/Web_Rectangle_01_Physical_White_05x05ft.webm`,
+                        '10x10ft': `${path}/Web/Rectangle/01/Physical/Web_Rectangle_01_Physical_White_10x10ft.webm`,
+                        '20x20ft': `${path}/Web/Rectangle/01/Physical/Web_Rectangle_01_Physical_White_20x20ft.webm`,
+                    },
+                },
+            },
+        },
+        token: {
+            '01': {
+                _markers: {
+                    loop: { start: 1000, end: 1000 },
+                    forcedEnd: 1000,
+                },                
+                physical: {
+                    white: `${path}/Web/Token/01/Physical/Web_Token_01_Physical_White.webm`,
+                },
+            },
+        },
+    };     
     //--------------------
     //WINGS
     //--------------------
