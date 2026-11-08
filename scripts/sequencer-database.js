@@ -356,6 +356,16 @@ export async function createDatabase(moduleFolder) {
                 orange: `${path}/Aura/Fire/Aura_Fire_01_Orange.webm`,
             },
         },
+        generic: {
+            '01': {
+                inflow: {
+                    white: `${path}/Aura/Generic/01/Aura_Generic_01_Inflow_White.webm`,
+                },
+                outflow: {
+                    white: `${path}/Aura/Generic/01/Aura_Generic_01_Outflow_White.webm`
+                },
+            },
+        },        
         twilight: {
             _markers: {
                 loop: { start: 750, end: 3250 }
@@ -1493,6 +1503,11 @@ export async function createDatabase(moduleFolder) {
                 yellow: `${path}/Pulse/Energy_04/Energy_Pulse_04_Yellow.webm`,
             },
         },
+        filigree: {
+            '01': {
+                yellow: `${path}/Pulse/Filigree/01/Pulse_Filigree_01_Yellow.webm`,
+            },
+        },
     };
     //--------------------
     //SCREEN OVERLAY
@@ -1641,6 +1656,16 @@ export async function createDatabase(moduleFolder) {
                 green: `${path}/Symbol/Animal/Wolf/Animal_Symbol_Wolf_Green.webm`,
             },
         },
+        banner: {
+            crown: {
+               '01': {
+                    _markers: {
+                        loop: { start: 500, end: 1500 }
+                    },   
+                    blueyellow: `${path}/Symbol/Banner/Crown/01/Banner_Crown_01_BlueYellow.webm`,
+               }, 
+            },
+        },        
         constellation: {
             complete: {
                 _markers: {
@@ -1684,6 +1709,14 @@ export async function createDatabase(moduleFolder) {
                 purple: `${path}/Symbol/Eye/01/Symbol_Eye_01_Purple.webm`,
             },
         },
+        filigree: {
+            '01': {
+                _markers: {
+                    loop: { start: 1250, end: 1500 }
+                },
+                yellow: `${path}/Symbol/Filigree/01/Symbol_Filigree_01_Yellow.webm`,
+            },
+        },        
         skull: {
             poison: {
                 _markers: {
@@ -1856,6 +1889,16 @@ export async function createDatabase(moduleFolder) {
                 },
             },
         },
+        title_bar: {
+            filigree: {
+                '01': {
+                    _markers: {
+                        loop: { start: 1500, end: 1500 }
+                    },
+                    yellow: `${path}/UI/Title_Bar/Filigree/01/UI_Title_Bar_Filigree_01_Yellow.webm`,
+                },
+            },
+        },        
     };    
     //--------------------
     //VELOCITY 
